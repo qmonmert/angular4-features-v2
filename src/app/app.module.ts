@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { EventManagerComponent } from './event-manager/event-manager.component';
+import { NgTemplateOutletComponent } from './ng-template-outlet/ng-template-outlet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventManagerComponent
+    EventManagerComponent,
+    NgTemplateOutletComponent
   ],
   imports: [
     BrowserModule,
